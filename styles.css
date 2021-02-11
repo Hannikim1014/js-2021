@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=Stardos+Stencil:wght@400;700&display=swap");
+
+body {
+  background-color: black;
+  opacity: 1;
+  font-family: "Coustard", serif;
+  font-family: "Stardos Stencil", cursive;
+}
+.js-clock {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 100px;
+  margin-bottom: -50px;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.js-greetings {
+  color: #dfe4ea;
+  text-align: center;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.js-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid grey 1px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 20%;
+}
+.js-form div {
+  text-align: center;
+  height: 100px;
+}
+
+.js-form input:focus {
+  outline: none;
+  border-bottom: white 1px solid;
+}
+.js-toDoList {
+  color: white;
+}
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.js-toDoForm input {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid grey 1px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  width: 10%;
+}
+.js-toDoForm input:focus {
+  outline: none;
+  border-bottom: white 1px solid;
+}
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.js-toDoList button {
+  margin-left: 15px;
+}
